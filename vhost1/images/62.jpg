@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 10]> <html lang="en" class="no-js ie10"> <![endif]-->
+
+<html lang="en" class="no-js" >
+
+<head>
+<title>FX Networks - Simpsons World</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicons -->
+
+  <!-- For iPad with high-resolution Retina display running iOS � 7: -->
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://assets.fxnetworks.com/region-simpsons/favicon-152.png">
+
+  <!-- For iPad with high-resolution Retina display running iOS � 6: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://assets.fxnetworks.com/region-simpsons/favicon-144.png">
+
+  <!-- For iPhone with high-resolution Retina display running iOS � 7: -->
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://assets.fxnetworks.com/region-simpsons/favicon-120.png">
+
+  <!-- For iPhone with high-resolution Retina display running iOS � 6: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://assets.fxnetworks.com/region-simpsons/favicon-114.png">
+
+  <!-- For first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://assets.fxnetworks.com/region-simpsons/favicon-72.png">
+
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="fhttp://assets.fxnetworks.com/region-simpsons/avicon-57.png">
+
+  <!-- Default: -->
+  <link rel="icon" href="http://assets.fxnetworks.com/region-simpsons/favicon-32.png" sizes="32x32">
+
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    body {
+        background-color: #f6c945;
+    }
+
+    .wrapper {
+        min-height: 100%;
+        position: relative;
+    }
+
+    #header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 800;
+    }
+
+    .simpsons-logo {
+        background: url('http://assets.fxnetworks.com/region-simpsons/simpsons-logo.png');
+        display: block;
+        height: 97px;
+        position: absolute;
+        right: 15px;
+        text-indent: -9999px;
+        top: 25px;
+        width: 148px;
+    }
+
+    .settings-content {
+        padding: 150px 10% 200px;
+        text-align: center;
+    }
+
+    p {
+        text-transform: none;
+        font-size: 20px;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+    }
+
+    .footer {
+        background: none repeat scroll 0 0 #f6c945;
+        border-top: 3px solid #d6af3c;
+        text-align: center;
+        width: 100%;
+
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .footer-inner {
+        margin: 0 auto;
+        position: relative;
+        width: 100%;
+    }
+
+    .footer-upper {
+        text-align: left;
+        height: 92px;
+        margin: 0 8.4%;
+        position: relative;
+    }
+
+    .footer-logos {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .footer-logo img {
+        display: inline-block;
+    }
+
+    .footer-logo {
+        margin-right: 10px;
+    }
+
+    .matt-groening-sig {
+        height: 15px;
+        margin-top: -7.5px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 126px;
+    }
+
+    .matt-groening-sig img {
+        width: 100%;
+    }
+
+    .footer-lower {
+        background-color: #fcd14e;
+        padding: 0 8.4%;
+    }
+
+    .legal-copy {
+        text-align: right;
+        padding: 19px 0 14px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #ad8c2c;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header id="header">
+            <span class="simpsons-logo">The Simpsons</span>
+        </header>
+
+
+        <div class="page-wrapper settings-page">
+            <div class="main-content">
+                <div class="main-content-inner">
+                    <div class="settings-content">
+                        <p>Thank you for your interest in FX Networks.<br />The content you are trying to access is not available in your region.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-upper">
+
+                    <div class="footer-logos">
+                        <img src="http://assets.fxnetworks.com/region-simpsons/footer-logo.png" alt="FX Now" class="footer-logo">
+                        <img src="http://assets.fxnetworks.com/region-simpsons/footer-mvpd-logo.png" alt="MVPD Logo" class="footer-mvpd-logo">
+                    </div>
+
+                    <div class="matt-groening-sig">
+                        <img src="http://assets.fxnetworks.com/region-simpsons/matt-groening-sig.png" alt="" class="large-sig">
+                    </div>
+                </div>
+                <div class="footer-lower">
+
+                    <p class="legal-copy">
+                        2014 FX Networks LLC. All RIghts Reserved
+                    </p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
