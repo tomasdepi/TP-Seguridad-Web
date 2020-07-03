@@ -20,5 +20,11 @@ services:
     ports:
       - '3306:3306'
 
+  waf:
+    build: ./waf
+    container_name: waf
+    ports:
+      - '8060:80'
+
 volumes:
   db_data:
